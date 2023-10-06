@@ -2,6 +2,7 @@
 import React, {useState} from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
+import { usePathname } from 'next/navigation'
 
 import { logo } from '@/assets';
 import { styles } from "../styles/index";
@@ -9,12 +10,19 @@ import { BiMenu } from 'react-icons/bi';
 import { ImCross } from "react-icons/im";
 
 const NavBar = ({toggleRightSidebar}) => {
+  const pathname = usePathname()
+
   const [isToggle, setIsToggle] = useState(false);
 
   const toggle = () => {
     toggleRightSidebar();
     setIsToggle(prev => !prev)
   } 
+
+  const shouldUnderlineLink = (href) => {
+    return pathname === href;
+  };
+
   return (
     <div>
       <div className="py-5 flex flex-wrap w-full justify-between">
@@ -34,12 +42,12 @@ const NavBar = ({toggleRightSidebar}) => {
           <Link
             href="/admissions"
           >
-            <h1 className={styles.navbuttons}>Admissions</h1> 
+            <h1 className={`${styles.navbuttons} ${shouldUnderlineLink('/admissions') && 'border-b-[2px] border-red-600'}`}>Admissions</h1> 
           </Link>
           <Link
             href="/history"
           >
-            <h1 className={styles.navbuttons}>History</h1>
+            <h1 className={`${styles.navbuttons} ${shouldUnderlineLink('/history') && 'border-b-[2px] border-red-600'}`}>History</h1>
           </Link>
         </div>
 
@@ -59,17 +67,17 @@ const NavBar = ({toggleRightSidebar}) => {
           <Link
             href="/courses"
           >
-            <h1 className={styles.navbuttons}>Courses</h1>
+            <h1 className={`${styles.navbuttons} ${shouldUnderlineLink('/courses') && 'border-b-[2px] border-red-600'}`}>Courses</h1>
           </Link>
           <Link
             href="/faculty"
           >
-            <h1 className={styles.navbuttons}>Faculty</h1>
+            <h1 className={`${styles.navbuttons} ${shouldUnderlineLink('/faculty') && 'border-b-[2px] border-red-600'}`}>Faculty</h1>
           </Link>
           <Link
             href="/extra"
           >
-            <h1 className={styles.navbuttons}>Extra Curriculars</h1>
+            <h1 className={`${styles.navbuttons} ${shouldUnderlineLink('/extra') && 'border-b-[2px] border-red-600'}`}>Extra Curriculars</h1>
           </Link>
       </div>
     </div>
