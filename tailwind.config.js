@@ -17,6 +17,9 @@ module.exports = {
         'fade-in': 'fadeIn 500ms ease-in-out',
         'fade-out': 'fadeOut 500ms ease-in-out',
       },
+      fontFamily: {
+        raleway: ['Raleway', 'sans'],
+      },
     },
   },
   plugins: [],
