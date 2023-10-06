@@ -12,6 +12,7 @@
     "classnames": "^2.3.2",
     "next": "latest",
     "react": "latest",
+    "react-big-calendar": "^1.8.4",
     "react-dom": "latest",
     "react-icons": "^4.11.0"
   },

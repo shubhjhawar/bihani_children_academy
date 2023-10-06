@@ -1,7 +1,9 @@
 const styles = {
     navbuttons: "text-lg font-semibold hover:border-b-[2px] border-red-600 hover:scale-110 transition ease-in-out",
     rightbuttons: "text-2xl font-semibold mb-4",
-    rightsubbuttons: "text-xl mb-1"
+    rightsubbuttons: "text-xl mb-1",
+    dates: 'w-full flex justify-center text-green-600 font-bold',
+    titles: 'w-3/4 text-lg max-sm:text-xs',
 }
 
 export { styles };
