@@ -1,7 +1,7 @@
 "use client";
 import { useState } from 'react';
 import '../globals.css'
-import { Inter } from 'next/font/google'
+import { Inter } from 'next/font/google';
 
 import { NavBar, LeftSideBar, Footer, RightSideBar } from "@/components";
 
@@ -13,13 +13,12 @@ const metadata = {
 }
 
 export default function RootLayout({ children }) {
+
   const [isRightSidebarOpen, setIsRightSidebarOpen] = useState(false);
 
   const toggleRightSidebar = () => {
     setIsRightSidebarOpen(prev => !prev);
   };
-
-  console.log(isRightSidebarOpen)
 
   return (
     <html lang="en">
