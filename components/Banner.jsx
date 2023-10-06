@@ -33,8 +33,6 @@ const Banner = () => {
     }
 
   }
-
-  console.log(img)
   
   return (
     <div className='w-full'>

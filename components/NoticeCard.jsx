@@ -11,7 +11,7 @@ const dateParts = date.split(' ');
                 <p className={`${styles.dates}`}>{dateParts[0]}</p>
                 <p className={`${styles.dates}`}>{dateParts[1]}</p>
             </div>
-            <div className="w-3/4">{title}</div>
+            <div className={`${styles.titles}`}>{title}</div>
         </div>
     </div>
   )

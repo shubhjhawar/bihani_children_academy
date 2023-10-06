@@ -3,6 +3,7 @@ const styles = {
     rightbuttons: "text-2xl font-semibold mb-4",
     rightsubbuttons: "text-xl mb-1",
     dates: 'w-full flex justify-center text-green-600 font-bold',
+    titles: 'w-3/4 text-lg max-sm:text-xs',
 }
 
 export { styles };
