@@ -55,7 +55,7 @@ const NavBar = ({toggleRightSidebar}) => {
         </button>
       </div>
 
-      <div className='w-full py-2 flex flex-wrap justify-around max-md:hidden block'>
+      <div className='w-full py-2 mb-4 bg-gradient-to-r from-orange-200 via-orange-400 to-orange-200 rounded-xl shadow-xl flex flex-wrap justify-around max-md:hidden block'>
           <Link
             href="/courses"
           >

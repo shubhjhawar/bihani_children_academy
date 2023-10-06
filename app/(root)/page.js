@@ -1,12 +1,11 @@
 import Image from 'next/image'
 
-import { Banner } from '@/components'
+import { Banner, NavBar } from '@/components'
 
 export default function Home() {
   return (
-    <main className="h-screen">
-      <Banner />
-     <p className=''>Hello world</p> 
+    <main className="min-h-screen w-full">
+      <Banner/>
     </main>
   )
 }

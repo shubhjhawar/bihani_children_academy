@@ -24,12 +24,12 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={inter.className}>
-        <div className='lg:px-20'>
+        <div className='lg:px-24 bg-gradient-to-b from-yellow-300 via-orange-400 to-red-500'>
           <NavBar toggleRightSidebar={toggleRightSidebar} />
           <main className='flex flex-row justify-between'>
             {/* <LeftSideBar /> */}
-            <section className="">
-              <div className="w-full max-w-4xl">
+            <section className="w-full">
+              <div className="w-full ">
                 {children}
               </div>
             </section>
