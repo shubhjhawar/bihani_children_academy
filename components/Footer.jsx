@@ -16,7 +16,7 @@ const Footer = () => {
   return (
     <div>
       <div className="max-sm:text-xs text-sm bg-gradient-to-b from-yellow-300 via-orange-400 to-red-500 rounded-t-lg mt-10 py-4 flex justify-around items-center">
-        <div className='flex flex-col gap-2'>
+        <div className='flex flex-col gap-2 max-sm:hidden block'>
           <div className='flex items-center gap-1'>
             <SiGooglemaps />
             <p>WV8J+X2R, Gagan Path, Sri Ganganagar</p>
