@@ -5,5 +5,7 @@ import three from "./3.jpeg";
 import four from "./4.jpeg";
 import five from "./5.jpeg";
 import six from "./6.jpeg";
+// import promo from "./promo.mp4";
+import principal from "./principal.jpeg"
 
-export { logo, one, two, three, four, five, six };
+export { logo, one, two, three, four, five, six, principal};

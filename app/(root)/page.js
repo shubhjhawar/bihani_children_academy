@@ -1,13 +1,13 @@
 "use client";
 import Image from 'next/image'
 
-import { Banner, MyCalendar, Notices } from '@/components'
+import { About, Banner, MyCalendar, Notices, Testimonial } from '@/components'
 
 export default function Home() {
   return (
     <main className="min-h-screen w-full">
       <Banner/>
-      <div className='w-full flex flex-col md:flex-row gap-2 p-2 border-[1px] border-gray-100 rounded-xl shadow-lg'>
+      <div className='w-full flex flex-col md:flex-row gap-2 px-4 py-6 border-[1px] border-gray-100 rounded-xl shadow-xl'>
         <div className='md:w-2/3'>
           <Notices />
         </div>
@@ -15,8 +15,9 @@ export default function Home() {
           <MyCalendar />
         </div>
       </div>
-      <div className='border-[1px] border-gray-100 rounded-xl shadow-lg mt-2'>
-        something
+      <div className='mt-5 border-gray-100 rounded-xl'>
+        <About />
+        <Testimonial />
       </div>
 
     </main>
