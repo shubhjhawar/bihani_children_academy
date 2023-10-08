@@ -9,7 +9,8 @@ const styles = {
     rightDropDownItem: 'hover:text-red-200',
     footertext:'text-xs',
     footericon:'w-full h-full max-md:w-5 max-md:h-5 cursor-pointer',
-    marqueePictures: 'w-[150px] h-[150px] rounded-md border-[1px]  border-zinc-900'
+    marqueePictures: 'w-[150px] h-[150px] rounded-md border-[1px]  border-zinc-900',
+    pageHeading: 'flex justify-center text-5xl font-sans text-white font-semibold tracking-wide',
 }
 
 export { styles };

@@ -89,11 +89,11 @@ const NavBar = ({toggleRightSidebar}) => {
           >
             <h1 className={`${styles.navbuttons}`}>Home</h1>
           </Link>
-          <Link
+          {/* <Link
             href="/courses"
           >
             <h1 className={`${styles.navbuttons} ${shouldUnderlineLink('/courses') && 'border-b-[2px] border-red-600'}`}>Courses</h1>
-          </Link>
+          </Link> */}
           <Link
             href="/cbse"
           >
