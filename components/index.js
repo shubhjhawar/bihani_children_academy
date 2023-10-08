@@ -9,5 +9,6 @@ import NoticeCard from "./NoticeCard";
 import About from "./About";
 import Testimonial from "./Testimonial";
 import Awards from "./Awards";
+import HistoryContainer from "./HistoryContainer";
 
-export {NavBar, Footer, LeftSideBar, RightSideBar, Banner, MyCalendar, Notices, NoticeCard, About, Testimonial, Awards};
+export {NavBar, Footer, LeftSideBar, RightSideBar, Banner, MyCalendar, Notices, NoticeCard, About, Testimonial, Awards, HistoryContainer};
