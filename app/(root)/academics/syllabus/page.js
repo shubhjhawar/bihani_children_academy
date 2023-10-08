@@ -2,7 +2,7 @@ import React from 'react'
 
 const Syllabus = () => {
   return (
-    <div>Syllabus</div>
+    <div className="h-screen">Syllabus</div>
   )
 }
 

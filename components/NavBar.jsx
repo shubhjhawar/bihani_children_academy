@@ -85,6 +85,11 @@ const NavBar = ({toggleRightSidebar}) => {
 
       <div className='w-full py-2 mb-4 bg-gradient-to-r from-orange-200 via-orange-400 to-orange-200 rounded-xl shadow-xl flex flex-wrap justify-around max-md:hidden block bg-opacity-75 backdrop-blur-md'>
           <Link
+            href="/"
+          >
+            <h1 className={`${styles.navbuttons}`}>Home</h1>
+          </Link>
+          <Link
             href="/courses"
           >
             <h1 className={`${styles.navbuttons} ${shouldUnderlineLink('/courses') && 'border-b-[2px] border-red-600'}`}>Courses</h1>

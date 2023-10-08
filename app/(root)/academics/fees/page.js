@@ -2,7 +2,7 @@ import React from 'react'
 
 const Fees = () => {
   return (
-    <div>Fees</div>
+    <div className="h-screen">Fees</div>
   )
 }
 

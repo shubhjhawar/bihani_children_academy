@@ -36,7 +36,9 @@
                 {isRightSidebarOpen && <RightSideBar />}
               </section>
             </main>
-            <Footer />
+          </div>
+          <div className='lg:px-0 w-full -mt-10'>
+              <Footer />
           </div>
         </body>
       </html>
