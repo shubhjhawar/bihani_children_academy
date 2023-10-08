@@ -50,8 +50,109 @@ const history = [
   },
 
 ]
+
+const syllabus = [
+  {
+    class:'I',
+    file:"standard 1 syllabus 23-24"
+  },
+  {
+    class:'II',
+    file:"standard 2 syllabus 23-24"
+  },
+  {
+    class:'III',
+    file:"standard 3 syllabus 23-24"
+  },
+  {
+    class:'IV',
+    file:"standard 4 syllabus 23-24"
+  },
+  {
+    class:'V',
+    file:"standard 5 syllabus 23-24"
+  },
+  {
+    class:'VI',
+    file:"standard 6 syllabus 23-24"
+  },
+  {
+    class:'VII',
+    file:"standard 7 syllabus 23-24"
+  },
+  {
+    class:'VIII',
+    file:"standard 8 syllabus 23-24"
+  },
+  {
+    class:'IX',
+    file:"standard 9 syllabus 23-24"
+  },
+  {
+    class:'X',
+    file:"standard 10 syllabus 23-24"
+  },
+  {
+    class:'XI',
+    file:"standard 11 syllabus 23-24"
+  },
+  {
+    class:'XII',
+    file:"standard 12 syllabus 23-24"
+  },
+]
   
+const fees = [
+  {
+    class:'I',
+    file:"standard 1 fees 23-24"
+  },
+  {
+    class:'II',
+    file:"standard 2 fees 23-24"
+  },
+  {
+    class:'III',
+    file:"standard 3 fees 23-24"
+  },
+  {
+    class:'IV',
+    file:"standard 4 fees 23-24"
+  },
+  {
+    class:'V',
+    file:"standard 5 fees 23-24"
+  },
+  {
+    class:'VI',
+    file:"standard 6 fees 23-24"
+  },
+  {
+    class:'VII',
+    file:"standard 7 fees 23-24"
+  },
+  {
+    class:'VIII',
+    file:"standard 8 fees 23-24"
+  },
+  {
+    class:'IX',
+    file:"standard 9 fees 23-24"
+  },
+  {
+    class:'X',
+    file:"standard 10 fees 23-24"
+  },
+  {
+    class:'XI',
+    file:"standard 11 fees 23-24"
+  },
+  {
+    class:'XII',
+    file:"standard 12 fees 23-24"
+  },
+]
 
 
-export {notices, awards, history};
+export {notices, awards, history, syllabus, fees};
   
