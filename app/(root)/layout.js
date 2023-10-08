@@ -26,7 +26,7 @@
           <title>Bihani Children's Academy</title>
         </head>
         <body className={inter.className}>
-          <div className='lg:px-24 bg-gradient-to-b from-yellow-300 via-orange-400 to-red-500'>
+          <div className='lg:px-24 bg-gradient-to-b from-yellow-400 via-orange-400 to-red-500'>
             <NavBar toggleRightSidebar={toggleRightSidebar}/>
             <main className='flex flex-row justify-center'>
               <section className="w-full">

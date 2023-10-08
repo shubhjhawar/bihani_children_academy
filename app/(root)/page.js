@@ -1,7 +1,7 @@
 "use client";
 import Image from 'next/image'
 
-import { About, Banner, MyCalendar, Notices, Testimonial } from '@/components'
+import { About, Awards, Banner, MyCalendar, Notices, Testimonial } from '@/components'
 
 export default function Home() {
   return (
@@ -18,6 +18,7 @@ export default function Home() {
       <div className='mt-5 border-gray-100 rounded-xl'>
         <About />
         <Testimonial />
+        <Awards />
       </div>
 
     </main>
