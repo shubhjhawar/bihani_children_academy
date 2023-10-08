@@ -7,6 +7,8 @@ const styles = {
     dropDownMenuContainer: 'absolute top-5 mt-2 w-[200px] bg-white border border-gray-300 rounded-md shadow-lg',
     dropDownMenuItem: 'px-4 py-2 hover:bg-gray-100',
     rightDropDownItem: 'hover:text-red-200',
+    footertext:'text-xs',
+    footericon:'w-full h-full cursor-pointer',
 }
 
 export { styles };
