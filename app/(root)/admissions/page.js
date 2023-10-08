@@ -3,7 +3,7 @@ import React from 'react'
 
 const Admissions = () => {
   return (
-    <div>Admissions</div>
+    <div className="h-screen">Admissions</div>
   )
 }
 

@@ -2,7 +2,7 @@ import React from 'react'
 
 const CoCurricular = () => {
   return (
-    <div>CoCurricular</div>
+    <div className="h-screen">CoCurricular</div>
   )
 }
 

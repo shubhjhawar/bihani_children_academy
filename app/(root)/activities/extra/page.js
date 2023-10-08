@@ -2,7 +2,7 @@ import React from 'react'
 
 const Extra = () => {
   return (
-    <div>Extra</div>
+    <div className="h-screen">Extra</div>
   )
 }
 

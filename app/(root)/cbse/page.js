@@ -2,7 +2,7 @@ import React from 'react'
 
 const Cbse = () => {
   return (
-    <div>Cbse</div>
+    <div className="h-screen">Cbse</div>
   )
 }
 

@@ -16,7 +16,7 @@ const Footer = () => {
   };
 
   return (
-    <div className="pt-10 bg-gradient-to-b from-red-500 to-orange-400 ">
+    <div className="pt-2 pb-2 bg-gradient-to-b from-red-500 to-orange-400 ">
       <div className="rounded-t-lg mt-10 py-4 grid grid-cols-3 max-sm:grid-cols-2">
         <div className='flex flex-col gap-2 max-sm:hidden block pl-12'>
           <div className='flex items-center gap-1'>
@@ -39,10 +39,10 @@ const Footer = () => {
         <div className='flex w-full justify-center cursor-pointer '>
           <Image src={logo} alt="logo" title="move to top" className='w-20 h-20 max-sm:w-10 max-sm:h-10' onClick={scrollToTop}/>
         </div>
-        <div className=' w-full flex justify-end'>
-          <div className="mr-12 mt-2 mb-2 w-1/4 ">
-            <h2 className='h-1/2  flex w-full justify-center items-center'>Socials</h2>
-            <div className='h-1/2 flex gap-2 '>
+        <div className=' w-full flex lg:justify-end max-md:justify-center'>
+          <div className="mr-12 mt-2 mb-2 w-1/4 flex flex-col justify-center ">
+            <h2 className='h-1/2 font-semibold underline flex w-full justify-center items-center'>Socials</h2>
+            <div className='h-1/2 flex gap-2'>
               <Link href="https://www.facebook.com/bcasgnr?mibextid=LQQJ4d" target="_blank">
                 <AiFillFacebook className={`${styles.footericon}`} />
               </Link>
