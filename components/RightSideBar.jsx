@@ -33,9 +33,9 @@ const RightSideBar = () => {
       <Link href="/history">
         <h1 className={`${styles.rightbuttons} ${shouldUnderlineLink('/history') && 'text-black underline'}`}>History</h1>
       </Link>
-      <Link href="/courses">
+      {/* <Link href="/courses">
         <h1 className={`${styles.rightsubbuttons} ${shouldUnderlineLink('/courses') && 'text-black underline'}`}>Courses</h1>
-      </Link>
+      </Link> */}
       <Link href="/cbse">
         <h1 className={`${styles.rightsubbuttons} ${shouldUnderlineLink('/cbse') && 'text-black underline'}`}>Cbse Curriculum</h1>
       </Link>

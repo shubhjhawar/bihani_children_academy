@@ -246,6 +246,149 @@ const cbse = [
   }
 ]
 
+const annualfunction = [
+  {
+    title: 'Annual School Gala 2023',
+    desc: 'Join us for a night of fun and festivities at our Annual School Gala 2023. It will be an evening filled with music, dance, games, and delicious food. Bring your family and friends and let\'s celebrate together!',
+    image: one
+  },
+  {
+    title: 'Cultural Showcase - A Glimpse of India',
+    desc: 'Experience the rich culture and heritage of India at our Cultural Showcase event. Our students will present traditional dances, music, and performances that reflect the diversity and beauty of our country.',
+    image: two
+  },
+  {
+    title: 'Science and Innovation Expo 2023',
+    desc: 'Get ready to be amazed by the brilliance of our young scientists and innovators! The Science and Innovation Expo 2023 will showcase cutting-edge projects, experiments, and inventions by our students.',
+    image: three
+  },
+  {
+    title: 'Sports Day - Champions on the Field',
+    desc: 'Cheer for our budding athletes as they compete in various sports and games during Sports Day. It\'s a day of healthy competition, teamwork, and sportsmanship that celebrates our students\' sporting talents.',
+    image: four
+  },
+  {
+    title: 'Annual Awards Ceremony',
+    desc: 'Join us for our prestigious Annual Awards Ceremony where we recognize and celebrate the academic and extracurricular achievements of our students. It\'s a moment of pride for our school community.',
+    image: five
+  }
+];
 
-export {notices, awards, history, syllabus, fees, faculties, cbse};
+const awardsPage = [
+  {
+    title: 'Community Service Award',
+    desc: 'The Community Service Award recognizes students who have made significant contributions to our community through volunteer work and service projects. It celebrates their commitment to making a positive impact on society.',
+    image: four
+  },
+  {
+    title: 'Academic Excellence Award',
+    desc: 'The Academic Excellence Award is presented to students who have consistently demonstrated outstanding academic performance throughout the year. It recognizes their dedication to learning and their commitment to achieving academic excellence.',
+    image: one
+  },
+  {
+    title: 'Creative Arts Achievement Award',
+    desc: 'The Creative Arts Achievement Award honors students who have showcased remarkable talent and creativity in various forms of art, including visual arts, music, drama, and dance. It celebrates their artistic achievements and contributions to our school’s cultural life.',
+    image: three
+  },
+  
+  {
+    title: 'Sportsmanship Award',
+    desc: 'The Sportsmanship Award is bestowed upon students who have displayed exceptional sportsmanship, teamwork, and dedication in sports and athletic activities. It celebrates the spirit of fair play and good sportsmanship.',
+    image: two
+  },
+  {
+    title: 'Leadership Excellence Award',
+    desc: 'The Leadership Excellence Award is presented to students who have demonstrated exceptional leadership skills, initiative, and a commitment to making a difference in our school community. It celebrates their role as positive role models and leaders.',
+    image: five
+  }
+];
+
+const cocurricular = [
+  {
+    title: 'Debate Club',
+    desc: 'Our Debate Club provides students with the opportunity to enhance their public speaking and critical thinking skills. Students engage in lively debates on various topics and participate in regional and national competitions.',
+    image: five
+  },
+  {
+    title: 'Music Ensemble',
+    desc: 'The Music Ensemble offers students a platform to explore their musical talents. They can join our school band, orchestra, or choir and perform at school events, competitions, and even external music festivals.',
+    image: four
+  },
+  {
+    title: 'Environmental Club',
+    desc: 'The Environmental Club is dedicated to raising awareness about environmental issues and promoting sustainability. Students participate in eco-friendly initiatives, tree planting, and educational campaigns.',
+    image:three
+  },
+  {
+    title: 'Coding and Robotics Club',
+    desc: 'The Coding and Robotics Club empowers students to explore the world of technology. They learn coding, create innovative projects, and build and program robots for exciting challenges and competitions.',
+    image: two
+  },
+  {
+    title: 'Drama and Theater Arts',
+    desc: 'Our Drama and Theater Arts program allows students to express themselves creatively through acting and stage performances. They participate in school plays, improv events, and drama workshops.',
+    image: one
+  }
+];
+
+const extracurricular = [
+  {
+    title: 'Chess Club',
+    desc: 'The Chess Club offers students the opportunity to sharpen their strategic thinking and problem-solving skills through chess. They participate in chess tournaments, hone their chess strategies, and enjoy friendly competitions.',
+    image: two
+  },
+  {
+    title: 'Photography Club',
+    desc: 'The Photography Club encourages students to explore the art of photography. They learn the fundamentals of photography, capture memorable moments, and even showcase their work at school exhibitions.',
+    image: three
+  },
+  {
+    title: 'Model United Nations (MUN)',
+    desc: 'Our Model United Nations (MUN) program simulates the workings of the United Nations. Students research global issues, engage in debates, and develop diplomatic skills while representing different countries.',
+    image: five
+  },
+  {
+    title: 'Young Entrepreneurs Club',
+    desc: 'The Young Entrepreneurs Club fosters entrepreneurial spirit among students. They brainstorm business ideas, create business plans, and even have the opportunity to launch their own small-scale enterprises.',
+    image: one
+  },
+  {
+    title: 'Culinary Arts Club',
+    desc: 'The Culinary Arts Club allows students to explore the world of cooking and culinary creativity. They learn cooking techniques, prepare delicious dishes, and sometimes even organize food fairs.',
+    image: four
+  }
+];
+
+const cultural = [
+  {
+    title: 'Traditional Dance Troupe',
+    desc: 'Our Traditional Dance Troupe showcases the rich and diverse cultural heritage of India through dance. Students learn and perform traditional dances from various regions, spreading cultural awareness.',
+    image: three
+  },
+  {
+    title: 'International Cuisine Festival',
+    desc: 'The International Cuisine Festival celebrates cultural diversity through food. Students prepare and share dishes from different countries, fostering an appreciation for global cuisine and traditions.',
+    image: four
+  },
+  {
+    title: 'Language and Cultural Exchange',
+    desc: 'The Language and Cultural Exchange program allows students to explore languages and cultures from around the world. They engage in language learning, cultural presentations, and connect with peers globally.',
+    image: two
+  },
+  {
+    title: 'Art and Craft Fair',
+    desc: 'Our Art and Craft Fair is a colorful celebration of creativity. Students showcase their artistic talents by displaying handmade crafts, paintings, and artworks inspired by various cultures.',
+    image: five
+  },
+  {
+    title: 'Folk Music Ensemble',
+    desc: 'The Folk Music Ensemble brings the soulful melodies of folk music to life. Students learn and perform traditional folk songs and musical instruments, promoting cultural harmony through music.',
+    image: one
+  }
+];
+
+
+
+
+export {notices, awards, history, syllabus, fees, faculties, cbse, annualfunction, awardsPage, cocurricular, extracurricular, cultural};
   
