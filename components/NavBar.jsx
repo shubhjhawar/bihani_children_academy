@@ -44,7 +44,7 @@ const NavBar = ({toggleRightSidebar}) => {
 
 
   return (
-    <div className="sticky top-0 z-50 bg-yellow-300 backdrop-blur-md rounded-b-lg bg-opacity-75">
+    <div className="sticky top-0 z-50 bg-yellow-400 backdrop-blur-md rounded-b-lg bg-opacity-75">
       <div className="py-5 flex flex-wrap w-full justify-between">
         <div>
           <Link

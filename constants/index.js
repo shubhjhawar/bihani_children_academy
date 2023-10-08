@@ -1,3 +1,5 @@
+import {one, two, three, four, five} from "@/assets"
+
 const notices = [
     {
       date: '5 Oct' ,
@@ -20,8 +22,12 @@ const notices = [
       title: 'Sports Day Rescheduled to November 5th',
     },
   ];
+
+const awards = [
+  one, two, three, four, five
+]
   
 
 
-export {notices};
+export {notices, awards};
   

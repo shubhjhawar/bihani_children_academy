@@ -16,7 +16,7 @@ const Footer = () => {
   };
 
   return (
-    <div className="pt-2 pb-2 bg-gradient-to-b from-red-500 to-orange-400 ">
+    <div className="pt-2 mt-5 pb-2 bg-gradient-to-b from-red-500 to-orange-400 ">
       <div className="rounded-t-lg mt-10 py-4 grid grid-cols-3 max-sm:grid-cols-2">
         <div className='flex flex-col gap-2 max-sm:hidden block pl-12'>
           <div className='flex items-center gap-1'>
@@ -56,7 +56,7 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <h3 className='w-full flex justify-center pb-2'>Copyright ©2023 All rights reserved</h3>
+      <h3 className='w-full flex justify-center pb-2 font-mono tracking-tight'>Copyright ©2023 All rights reserved</h3>
     </div>
   )
 }

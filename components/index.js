@@ -8,5 +8,6 @@ import Notices from "./Notices";
 import NoticeCard from "./NoticeCard";
 import About from "./About";
 import Testimonial from "./Testimonial";
+import Awards from "./Awards";
 
-export {NavBar, Footer, LeftSideBar, RightSideBar, Banner, MyCalendar, Notices, NoticeCard, About, Testimonial};
+export {NavBar, Footer, LeftSideBar, RightSideBar, Banner, MyCalendar, Notices, NoticeCard, About, Testimonial, Awards};
