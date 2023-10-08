@@ -1,4 +1,4 @@
-import {one, two, three, four, five} from "@/assets"
+import {one, two, three, four, five, staff} from "@/assets"
 
 const notices = [
     {
@@ -153,6 +153,60 @@ const fees = [
   },
 ]
 
+const faculties = [
+  {
+    name: "Amit Patel",
+    designation: "Mathematics Teacher",
+    image: staff
+  },
+  {
+    name: "Neha Singh",
+    designation: "Science Teacher",
+    image: staff
+  },
+  {
+    name: "Rajesh Kumar",
+    designation: "History Teacher",
+    image: staff
+  },
+  {
+    name: "Pooja Sharma",
+    designation: "English Teacher",
+    image: staff
+  },
+  {
+    name: "Vikram Tiwari",
+    designation: "Physical Education Instructor",
+    image: staff
+  },
+  {
+    name: "Ananya Joshi",
+    designation: "Art Teacher",
+    image: staff
+  },
+  {
+    name: "Arun Khanna",
+    designation: "Music Teacher",
+    image: staff
+  },
+  {
+    name: "Meera Gupta",
+    designation: "Computer Science Teacher",
+    image: staff
+  },
+  {
+    name: "Sanjay Reddy",
+    designation: "Foreign Language Teacher",
+    image: staff
+  },
+  {
+    name: "Deepika Patel",
+    designation: "Guidance Counselor",
+    image: staff
+  }
+];
 
-export {notices, awards, history, syllabus, fees};
+
+
+export {notices, awards, history, syllabus, fees, faculties};
   

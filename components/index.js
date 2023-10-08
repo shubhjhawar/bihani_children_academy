@@ -11,5 +11,7 @@ import Testimonial from "./Testimonial";
 import Awards from "./Awards";
 import HistoryContainer from "./HistoryContainer";
 import AcademicsTable from "./AcademicsTable";
+import FacultyCard from "./FacultyCard";
 
-export {NavBar, Footer, LeftSideBar, RightSideBar, Banner, MyCalendar, Notices, NoticeCard, About, Testimonial, Awards, HistoryContainer, AcademicsTable};
+export {NavBar, Footer, LeftSideBar, RightSideBar, Banner, MyCalendar, Notices, NoticeCard, 
+        About, Testimonial, Awards, HistoryContainer, AcademicsTable, FacultyCard};

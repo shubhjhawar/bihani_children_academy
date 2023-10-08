@@ -1,13 +1,15 @@
 "use client";
-import { one } from '@/assets';
-import Image from 'next/image';
 import React from 'react'
+import Image from 'next/image';
+
+import { styles } from '@/styles';
+import { one } from '@/assets';
 
 const Admissions = () => {
   return (
     <div className="h-auto">
       <div className="p-4">
-        <h1 className='flex justify-center text-5xl font-sans text-white font-semibold tracking-wide'>Admissions</h1>
+        <h1 className={`${styles.pageHeading}`}>Admissions</h1>
           <div className="font-sans grid grid-cols-2 max-md:grid-cols-1 p-2">
             <div className="h-auto ">
               <div className=''>
