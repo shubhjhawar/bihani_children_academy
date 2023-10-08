@@ -207,6 +207,45 @@ const faculties = [
 ];
 
 
+const cbse = [
+  {
+    title:"Comprehensive Learning",
+    content:"Our CBSE curriculum covers a wide range of subjects, including languages, sciences, mathematics, social sciences, and more. We provide a holistic learning experience that empowers students with knowledge across diverse fields."
+  },
+  {
+    title:"Continuous Evaluation",
+    content:"We follow the Continuous and Comprehensive Evaluation (CCE) system as prescribed by CBSE, ensuring that students' progress is continually monitored and assessed."
+  },
+  {
+    title:"Interactive and Engaging Teaching",
+    content:"Our dedicated educators employ innovative teaching methods to make learning interactive and engaging. We encourage critical thinking, active participation, and curiosity in our students."
+  },
+  {
+    title:"Life Skills Development",
+    content:"Beyond academics, we focus on cultivating essential life skills such as communication, problem-solving, and interpersonal skills. These skills prepare our students for the challenges of the real world."
+  },
+  {
+    title:"Extracurricular Enrichment",
+    content:"Bihani Children's Academy offers a rich array of extracurricular activities, including sports, arts, and cultural programs, allowing students to explore and nurture their talents and interests."
+  },
+  {
+    title:"Holistic Student Development",
+    content:"We prioritize the holistic development of our students, nurturing their physical, mental, and emotional well-being."
+  },
+  {
+    title:"CBSE Examinations and Recognitions",
+    content:"CBSE conducts standardized examinations at various levels, including the All India Secondary School Examination (AISSE) for Class 10 and the All India Senior School Certificate Examination (AISSCE) for Class 12. These examinations are nationally and internationally recognized, opening doors to diverse higher education opportunities."
+  },
+  {
+    title:"Parent-Teacher Collaboration",
+    content:"We believe that strong collaboration between parents, teachers, and students is essential for success. Regular parent-teacher meetings, progress reports, and open communication channels ensure active parental involvement in their child's educational journey."
+  },
+  {
+    title:"Preparing for a Bright Future:",
+    content:"The CBSE curriculum equips students not only for higher education but also for the demands of the modern world. Bihani Children's Academy is dedicated to nurturing confident, responsible, and well-informed individuals who are prepared to excel in their chosen paths."
+  }
+]
 
-export {notices, awards, history, syllabus, fees, faculties};
+
+export {notices, awards, history, syllabus, fees, faculties, cbse};
   
